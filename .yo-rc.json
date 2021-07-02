@@ -1,0 +1,54 @@
+{
+  "generator-jhipster": {
+    "blueprints": [
+      {
+        "name": "generator-jhipster-nodejs",
+        "version": "2.0.0-beta.1"
+      }
+    ],
+    "otherModules": [
+      {
+        "name": "generator-jhipster-nodejs",
+        "version": "2.0.0-beta.1"
+      }
+    ],
+    "applicationType": "monolith",
+    "baseName": "BuildingCop",
+    "jhipsterVersion": "7.0.0",
+    "skipClient": false,
+    "skipServer": false,
+    "skipUserManagement": false,
+    "skipCheckLengthOfIdentifier": false,
+    "skipFakeData": false,
+    "jhiPrefix": "jhi",
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "testFrameworks": [],
+    "pages": [],
+    "creationTimestamp": 1625262847515,
+    "serverPort": "8081",
+    "packageName": "com.jhipster.node",
+    "databaseType": "sql",
+    "devDatabaseType": "sqlite",
+    "prodDatabaseType": "postgresql",
+    "authenticationType": "jwt",
+    "clientFramework": "angularX",
+    "withAdminUi": true,
+    "clientTheme": "litera",
+    "clientThemeVariant": "primary",
+    "enableTranslation": true,
+    "nativeLanguage": "es",
+    "packageFolder": "com/jhipster/node",
+    "jwtSecretKey": "MTRkODA5YTMxMmU0MWE0NjY2NzdmYWM0MGU3Y2U3NjY4MmIzYWI1MjRlMzY2NjgxYWZmMWU2Njg3NDEzMWJiOGRmNjkzMjNmY2MzOWI5Yjc4ZWQ1YjIxZGVkZjBmOTNmNmRiY2RjMWM4ZTY0MmE0MzgzZDE1ZTg3MDA2NGFlM2E=",
+    "serviceDiscoveryType": false,
+    "websocket": false,
+    "searchEngine": false,
+    "messageBroker": false,
+    "clientPackageManager": "npm",
+    "languages": ["es"],
+    "cacheProvider": "ehcache",
+    "buildTool": "maven",
+    "enableHibernateCache": true,
+    "reactive": false
+  }
+}
